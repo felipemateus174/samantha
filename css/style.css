@@ -9,7 +9,7 @@
     fill: white;
 }
 .btn-3d:active {
-    box-shadow: 0 2px #0056b3;
+    box-shadow: 0 2px #111111;
     transform: translateY(3px);
 }
 .btn-3d:hover{
