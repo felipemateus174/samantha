@@ -1,5 +1,8 @@
+body {
+  overflow: hidden;
+}
 .btn-3d {
-    background-color: rgb(64, 63, 63);
+    background-color: rgb(80, 78, 78);
     border: none;
     color: white;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
@@ -16,14 +19,34 @@
     transform: translateY(-5px);
     transition: all .3s ease;
 }
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+}
+
 @media only screen and (max-width: 430px) {
-    img {
-      max-width: 100%;
-    }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  .btn-3d {
+    margin: 5%;
+  }
+
     
   }
 @media only screen and (max-width: 414px) {
-    img {
-      max-width: 100%;
-    }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  .btn-3d {
+    margin: 5%;
+  }
 }
