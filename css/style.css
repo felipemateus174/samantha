@@ -1,24 +1,7 @@
 body {
   overflow: hidden;
 }
-.btn-3d {
-    background-color: rgb(80, 78, 78);
-    border: none;
-    color: white;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 10px rgb(50, 49, 49);
-    transition: all 0.3s ease;
-    border-radius: 50%;
-    fill: white;
-}
-.btn-3d:active {
-    box-shadow: 0 2px #111111;
-    transform: translateY(3px);
-}
-.btn-3d:hover{
-    transform: translateY(-5px);
-    transition: all .3s ease;
-}
+
 .img-fluid {
   max-width: 50%;
   height: auto;
@@ -32,12 +15,12 @@ body {
   .d-flex {
     flex-direction: column;
   }
-  .btn-3d {
-    margin: 5%;
-  }
+  .icon {
+    width: 50%;
+    height: auto;
+}
+}
 
-    
-  }
 @media only screen and (max-width: 414px) {
   .img-fluid {
     max-width: 100%;
@@ -46,7 +29,8 @@ body {
   .d-flex {
     flex-direction: column;
   }
-  .btn-3d {
-    margin: 5%;
-  }
+  .icon {
+    width: 50%;
+    height: auto;
+}
 }
